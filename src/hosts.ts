@@ -1,5 +1,6 @@
 let hosts = [1, 2, 3, 4, 5]
 
-const zabbix = require('zabbix-rpc')
+// const zabbix = require('zabbix-rpc')
+import Zabbix from 'zabbix-rpc'
 
-module.exports = { hosts, zabbix }
+export defaults { hosts, zabbix }
